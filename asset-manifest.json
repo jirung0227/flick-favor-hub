@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.js": "/flick-favor-hub/static/js/main.7006f56c.js",
+    "main.js": "/flick-favor-hub/static/js/main.febf6788.js",
     "index.html": "/flick-favor-hub/index.html",
-    "main.7006f56c.js.map": "/flick-favor-hub/static/js/main.7006f56c.js.map"
+    "main.febf6788.js.map": "/flick-favor-hub/static/js/main.febf6788.js.map"
   },
   "entrypoints": [
-    "static/js/main.7006f56c.js"
+    "static/js/main.febf6788.js"
   ]
 }
