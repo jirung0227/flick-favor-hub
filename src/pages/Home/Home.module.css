@@ -1,0 +1,9 @@
+/* Home.module.css */
+.postList {
+  list-style: none;
+  padding: 0;
+}
+
+.newPost {
+  margin-top: 20px;
+}

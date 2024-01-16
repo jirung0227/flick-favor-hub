@@ -1,0 +1,37 @@
+/* AuthForm.module.css */
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  margin: 0 auto;
+}
+
+.input {
+  margin-bottom: 10px;
+  padding: 8px;
+  font-size: 14px;
+}
+
+.submit {
+  padding: 10px;
+  background-color: #007bff;
+  border-radius: 4px;
+  color: #fff;
+  cursor: pointer;
+  font-size: 16px;
+  border: none;
+}
+
+.submit:hover {
+  background-color: #0056b3;
+}
+
+.toggle {
+  margin-top: 24px;
+  margin-bottom: 32px;
+  cursor: pointer;
+  text-align: center;
+  font-size: 15px;
+  text-decoration: underline;
+  color: #8491a7;
+}

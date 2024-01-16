@@ -1,0 +1,110 @@
+/* Post.module.css */
+.post {
+  margin-top: 20px;
+  margin-bottom: 4px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  background-color: #fff;
+  position: relative;
+}
+
+.postText {
+  padding-bottom: 32px;
+}
+.postInfo {
+  position: absolute;
+  display: flex;
+  left: 8px;
+  bottom: 8px;
+  font-size: 14px;
+  height: 16.5px;
+}
+
+.postCreatorName {
+  margin-right: 8px;
+}
+
+.postCreatedAt {
+  color: #8491a7;
+}
+
+.img {
+  max-width: 100%; /* 최대 너비를 부모 컨테이너의 100%로 설정 */
+  width: 100%;
+  height: auto;
+  border-radius: 4px;
+  margin-bottom: 12px;
+}
+
+.buttonGroup {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.deleteButton,
+.editButton {
+  margin-left: 5px;
+  padding: 5px;
+  background-color: #dc3545;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* 추가된 미디어 쿼리 */
+@media screen and (max-width: 600px) {
+  .post {
+    padding: 8px;
+  }
+
+  .img {
+    max-width: 100%; /* 최대 너비를 부모 컨테이너의 100%로 설정 */
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+  }
+}
+
+/* 태블릿 화면에 대한 스타일 조정 */
+@media screen and (min-width: 601px) and (max-width: 1024px) {
+  .post {
+    padding: 12px;
+  }
+
+  .img {
+    max-width: 100%; /* 최대 너비를 부모 컨테이너의 100%로 설정 */
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+  }
+}
+
+/* Post.module.css */
+/* 이전 스타일은 생략 */
+
+.iconButton {
+  margin-left: 5px;
+  padding: 5px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.iconButton:hover {
+  background-color: #0056b3;
+}
+
+/* 새로 추가된 스타일 */
+.buttonGroup {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.saveButton,
+.cancelButton {
+  margin-left: 5px;
+}

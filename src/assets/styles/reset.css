@@ -1,0 +1,134 @@
+/* 박스 모델 초기화 */
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* 리스트 초기화: */
+ul,
+ol {
+  list-style: none;
+}
+/* 링크 초기화: */
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+/* 텍스트 초기화: */
+
+mark,
+del {
+  text-decoration: none;
+}
+/* 인라인 요소의 디스플레이 속성 설정: */
+
+abbr[title],
+dfn[title] {
+  border-bottom: 1px dotted;
+  cursor: help;
+}
+
+input,
+select {
+  vertical-align: middle;
+}
+/* 폼 요소 초기화: */
+
+input,
+button,
+textarea,
+select {
+  font-size: 100%;
+  margin: 0;
+  vertical-align: baseline;
+}
+/* 테이블 관련 초기화: */
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}

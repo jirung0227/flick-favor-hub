@@ -1,0 +1,88 @@
+/* Auth.module.css */
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.main {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.footer {
+  margin-top: 20px;
+  font-size: 0.8rem;
+  color: #555;
+}
+
+.button {
+  display: flex;
+  width: 44px;
+  height: 44px;
+  border: 1px solid;
+  border-radius: 100%;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-content: center;
+  cursor: pointer;
+}
+
+.social_login_tit {
+  color: #8491a7;
+  font-size: 14px;
+  line-height: 24px;
+  text-align: center;
+}
+
+.social_login_tit:before {
+  float: left;
+  margin-right: 11px;
+}
+.social_login_tit:after {
+  float: right;
+  margin-right: 11px;
+}
+
+.social_login_tit:before,
+.social_login_tit:after {
+  display: inline-block;
+  margin-top: 10px;
+  width: 71px;
+  height: 1px;
+  background-color: #eaedf4;
+  content: "";
+}
+
+.social_login {
+  display: flex;
+  justify-content: center;
+}
+
+.login_google {
+  border-color: #8491a7;
+  background-color: white;
+}
+
+.login_github {
+  background-color: #000000;
+}
+
+.button + .button {
+  margin-left: 8px;
+}
+
+.icon {
+  font-size: 20px;
+}
