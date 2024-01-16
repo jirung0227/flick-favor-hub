@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/flick-favor-hub/static/css/main.271d525d.css",
-    "main.js": "/flick-favor-hub/static/js/main.c410bc48.js",
+    "main.css": "/flick-favor-hub/static/css/main.430becd2.css",
+    "main.js": "/flick-favor-hub/static/js/main.2e283cdc.js",
     "index.html": "/flick-favor-hub/index.html",
-    "main.271d525d.css.map": "/flick-favor-hub/static/css/main.271d525d.css.map",
-    "main.c410bc48.js.map": "/flick-favor-hub/static/js/main.c410bc48.js.map"
+    "main.430becd2.css.map": "/flick-favor-hub/static/css/main.430becd2.css.map",
+    "main.2e283cdc.js.map": "/flick-favor-hub/static/js/main.2e283cdc.js.map"
   },
   "entrypoints": [
-    "static/css/main.271d525d.css",
-    "static/js/main.c410bc48.js"
+    "static/css/main.430becd2.css",
+    "static/js/main.2e283cdc.js"
   ]
 }
